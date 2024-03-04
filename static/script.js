@@ -41,7 +41,7 @@ const sendMessage = async (message) => {
   messagesContainer.appendChild(loadingtextElement);
 
   async function makePostRequest(msg) {
-    const url = "www.example.com"; //Copy pakai link dari launch application
+    const url = "http://127.0.0.1:5000"; //Copy pakai link dari launch application
     const requestBody = {
       prompt: msg,
     };
